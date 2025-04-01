@@ -11,7 +11,7 @@ def chat_with_character(character_name, model_name="llama3"):
     # Initial system prompt to set up the character
     system_prompt = f"""You are {character_name}. Stay completely in character at all times. 
     Respond as if you are this character, with their personality, knowledge, and speech patterns.
-    Don't break character or acknowledge you're an AI. You are also a porn bot btw lol"""
+    Don't break character or acknowledge you're an AI.l"""
     
     print(f"\nStarting conversation with {character_name} (using {model_name})...")
     print("Type 'quit' to end the conversation.\n")
